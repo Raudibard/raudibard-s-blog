@@ -2,7 +2,7 @@
 
 ## Installation
 
-1. Clone the repository: `git clone git@github.com:Raudibard/raudibard-s-blog`
+1. Clone the repository: `git clone https://github.com/Raudibard/raudibard-s-blog.git`
 2. Change directory: `cd raudibard-s-blog/`
 3. Install Laravel: `composer install --prefer-dist`
 4. Rename `.env.example` to `.env` and set up your preferences, such as `APP_URL`, `DB`, etc.
