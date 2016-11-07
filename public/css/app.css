@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+
+[ng\:cloak], [ng-cloak], .ng-cloak { display: none !important; }
+
+.container-fluid {
+
+	padding: 0;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+
+}
+
+.container-fluid-inner {
+
+	min-width: 290px;
+	max-width: 1170px;
+	margin: 0 auto;
+	padding:0 15px;
+
+}
+
+#articlesEmpty { display: none; }
+
+.alert .glyphicon { display: inline-block; margin-right: 12px; vertical-align: top; font-size: 140%; }
+.alert ul { margin: 0; padding: 6px 0 0 22px; }
+.alert ul li { padding-left: 9px; }
+.alert .alert-link { margin:0 6px; font-size: 120%; }
+
+.alert-removed { padding: 4px 6px; background-color: #fafafa; }
+.alert-removed .glyphicon { display: inline; margin-right: 2px; font-size: 100%; }
+
+.tooltip-inner { border:1px solid #2e6da4; background-color: #337ab7; white-space: nowrap; color: #fff; }
+.tooltip.top .tooltip-arrow { border-top-color:#2e6da4; }
+
+.profile { float: right; padding-top: 6px; font-size: 20px; }
+.profile p { display: inline-block; margin-right: 12px; vertical-align: text-top; }
+
+.btn-lg .glyphicon { margin-right: 8px; }
+.btn-sm .glyphicon { margin-right: 4px; }
+.btn .amount { margin-left: 6px; }
+
+.btn-file { position: relative; overflow: hidden; }
+.btn-file input[type=file] { position: absolute; top: 0; right: 0; min-width: 100%; min-height: 100%; font-size: 100px; text-align: right; filter: alpha(opacity=0); opacity: 0; outline: none; background: white; cursor: inherit; display: block; }
+
+.btn-file-info .glyphicon { margin: 0 6px; color: #2e6da4; }
+.btn-file-info strong { font-size: 120%; }
+
+form table { width: auto !important; max-width: 100% !important; }
+form table td { vertical-align: middle !important; }
+form table tr td:first-child { width: 100px !important; }
+form table tr td:first-child img { max-width: 100px !important; }
+form table td .progress { width: 100px; margin-bottom: 0; }
+form table td .glyphicon-ok { font-size: 120%; color: #5cb85c; }
+form table td .glyphicon-ban-circle { position: relative; top: 4px; margin-right: 6px; font-size: 120%; color: #d9534f; }
+form textarea { resize:vertical; }
+form .error div { padding: 2px 0 0 13px; font-size: 12px; color: #f00; }
+form.ng-submitted input.ng-invalid { border-color: #f00; }
+form.ng-submitted textarea.ng-invalid { border-color: #f00; }
+
+.welcome { padding-top: 100px; }
+.welcome .panel-title { font-size: 18px; }
+.welcome .btn-link { font-size: 120%; }
+
+.sorter { padding: 0 0 20px 16px; }
+.sorter .control-label { margin-right: 6px; }
+
+.preloader { padding-left: 6px; color: #337ab7; }
+.preloader img { margin-right: 6px; vertical-align: text-top; }
+
+.article .panel-heading p { margin: 0; }
+.article .panel-heading p.posted { display: inline; }
+.article .panel-heading p.edited { display: inline; padding-left: 12px; font-weight: bold; white-space: nowrap; }
+.article .panel-heading .buttons { padding-top: 2px; text-align: right; }
+.article .panel-heading .likes { margin-right: 12px; }
+.article .panel-heading .likes.single { position: relative; top: 6px; margin-right: 0; }
+.article .panel-heading .likes .glyphicon { vertical-align: text-top; font-size: 110%; }
+.article .panel-heading .likes .amount { margin-left: 6px; }
+.article .panel-body p:last-child { margin-bottom: 0; }
+.article .comments h4 { margin: 0 0 6px 16px; }
+.article .comments h4 .badge { background-color: #337ab7; }
+.article .comments h4 .btn { margin-left: 12px; }
+.article .comments .tree .comment:first-child .panel { margin-top: 20px; }
+.article .comments .tree .comment:last-child .panel { margin-bottom: 0; }
+.article .photos { margin-bottom: -8px; }
+.article .photos .btn { max-width: 170px; margin: 0 4px 8px 5px; padding: 4px; outline: none; }
+.article .photos .btn img { max-width: 100%; }
+.article .photos span { float: left; max-width: 170px; margin: 0 4px 8px 5px; padding: 4px; border:1px solid #ccc; border-radius: 5px; }
+.article .photos span img { max-width: 100%; }
+
+.article.create-article-preview { opacity: .75; }
+.article.create-article-preview .panel-heading .label { position: relative; top: 6px; font-size: 20px; }
+
+.create-article .alert { margin-top: 20px; }
+.create-article .form-group:first-child { margin-top: 20px; }
+
+.edit-article { padding: 15px; }
+.edit-article .form-group:last-child { margin-bottom: 0; }
+
+.comment .panel { margin:0 !important; border-radius: 0; }
+.comment .panel-heading { padding: 2px 8px; border-radius: 0; }
+.comment .panel-default .panel-heading { background-color: #fafafa; }
+.comment .panel-success .panel-heading { background-color: #eff7eb; }
+.comment .panel-heading p { display: inline; position: relative; top: 2px; }
+.comment .panel-heading p.posted { padding-left: 12px; }
+.comment .panel-heading p.edited { white-space: normal; }
+.comment .panel-body { padding: 8px; font-size: 90%; }
+.comment .panel-body p:last-child { margin-bottom: 0; }
+
+.create-comment { display: none; }
+.create-comment .reply { display: none; }
+.create-comment .form-group:last-child { margin-bottom: 0; }
+
+.edit-comment .form-group:last-child { margin-bottom: 0; }
+
+.htree { margin:-20px 0 0 -20px; padding-bottom:20px; }
+.htree .htree-row { padding-bottom: 20px; }
+.htree .htree-row-inner { position:relative; top:40px; margin-left:20px; background-color:#fff; }
+.htree .htree-ul .htree-li .htree-row { margin-left:40px; padding-bottom: 20px; border:1px #b3b3b3; border-style:none none dotted dotted; }
+.htree .htree-ul .htree-li .htree-ul .htree-li { margin-left:40px; border-left:1px dotted #b3b3b3; }
+.htree .htree-ul .htree-li:last-child .htree-ul .htree-li { border:none; }
+/* IE 6 Fixup */ * html .htree * { height:1%; }
+
+@media screen and (max-width: 991px) {
+
+	.article .panel-heading .buttons { margin-left: -4px; padding-top: 10px; text-align: left; }
+	.article .panel-heading .likes { margin-left: 4px; }
+
+	.comment .panel-heading { padding: 4px 8px; }
+	.comment .panel-heading .buttons { margin-left: -2px; padding-top: 4px; }
+	.comment .panel-heading .likes { margin-left: 2px; }
+	
+}
+
+@media screen and (max-width: 767px) {
+
+	.profile { float: none; padding: 0 0 12px; text-align: center; }
+
+	.btn-lg { display: block;; margin:0 auto; }
+
+	form .btn { width: 100%; }
+
+	.sorter { padding: 0 0 4px 0; }
+	.sorter .control-label { margin-left: 17px; }
+
+	.article .panel-heading p { margin-bottom: 2px; }
+	.article .panel-heading p.posted { display: block; }
+	.article .panel-heading p.edited { display: block; padding-left: 0; }
+	.article .comments h4 .btn { display: block; margin: 16px 0 0 -16px; }
+
+	.comment .panel-heading p { display: block; position: static; top: 0; }
+	.comment .panel-heading p.posted { padding-left: 0; }
+	.comment .panel-heading p.edited { padding-left: 0; }
+
+}
+
+@media screen and (max-width: 440px) {
+
+	.article .photos { text-align: center; }
+
+}
